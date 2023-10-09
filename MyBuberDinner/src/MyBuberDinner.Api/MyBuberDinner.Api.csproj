@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBuberDinner.Contracts\MyBuberDinner.Contracts.csproj" />
+    <ProjectReference Include="..\MyBuberDinner.Application\MyBuberDinner.Application.csproj" />
+    <ProjectReference Include="..\MyBuberDinner.Infrastructure\MyBuberDinner.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
