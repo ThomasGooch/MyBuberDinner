@@ -8,8 +8,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+   
+
   <ItemGroup>
     <ProjectReference Include="..\MyBuberDinner.Application\MyBuberDinner.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.2" />
   </ItemGroup>
 
 </Project>

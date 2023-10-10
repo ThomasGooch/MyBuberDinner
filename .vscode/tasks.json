@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/MyBuberDinner.sln",
+                "${workspaceFolder}/MyBuberDinner/MyBuberDinner.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/MyBuberDinner.sln",
+                "${workspaceFolder}/MyBuberDinner/MyBuberDinner.sln",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/MyBuberDinner.sln"
+                "${workspaceFolder}/MyBuberDinner/MyBuberDinner.sln"
             ],
             "problemMatcher": "$msCompile"
         }

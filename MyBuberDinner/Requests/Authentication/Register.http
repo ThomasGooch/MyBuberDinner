@@ -1,4 +1,6 @@
-POST http://localhost:5119/auth/register
+@host =  http://localhost:5119
+
+POST {{host}}/auth/register
 Content-Type: application/json
 
 {

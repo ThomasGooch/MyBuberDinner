@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/src/MyBuberDinner.Api/bin/Debug/net8.0/MyBuberDinner.Api.dll",
+            "program": "${workspaceFolder}/MyBuberDinner/src/MyBuberDinner.Api/bin/Debug/net8.0/MyBuberDinner.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/src/MyBuberDinner.Api",
+            "cwd": "${workspaceFolder}/MyBuberDinner/src/MyBuberDinner.Api",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {

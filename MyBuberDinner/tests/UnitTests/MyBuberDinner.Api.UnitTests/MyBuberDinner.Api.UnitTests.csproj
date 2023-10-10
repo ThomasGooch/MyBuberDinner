@@ -22,8 +22,6 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\src\MyBuberDinner.Api\MyBuberDinner.Api.csproj" />
-  </ItemGroup>
+  
 
 </Project>
