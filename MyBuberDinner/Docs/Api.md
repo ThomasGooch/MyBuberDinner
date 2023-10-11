@@ -1,8 +1,17 @@
-# MyBuberDinner
+# My Buber Dinner API
 
-MyBuberDinner is a simple dinner party app, developed by the amazing Amichai Mantinband, and this is my study of clean architecture. I can see use of CRQS, Dependency Inversion, EFcore, and more.
+- [My Buber Dinner Api](#buber-dinner-api)
+  - [Auth](#auth)
+    - [Register](#register)
+      -[Register Request](#register-request)
+      -[Register Response](#register-response)
+    - [Login](#login)
+      - [Login Request](#login-request)  
+      - [Login Response](#login-response)
 
-## Register
+## Auth
+
+### Register
 
 ```js
 POST {{host}}/auth/register
@@ -20,6 +29,7 @@ POST {{host}}/auth/register
 ```
 
 #### Register Response
+
 ```js
 200 Ok
 ```
@@ -34,7 +44,8 @@ POST {{host}}/auth/register
 }
 ```
 
-## Login
+
+### Login
 
 ```js
 POST {{host}}/auth/login
@@ -64,6 +75,3 @@ POST {{host}}/auth/login
     "token":"eyjhb...x0y"
 }
 ```
-
-
-## Dinner API
